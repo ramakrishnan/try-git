@@ -8,6 +8,6 @@ module.exports = {
         },
         staging: {
             servers: ['ram@localhost'],
-            branch: 'merge-1'
+            branch: 'master'
         }
     };
