@@ -4,7 +4,7 @@ module.exports = {
             deployTo: '/home/ram/grunt_deploy/actualCode',
             repositoryUrl: 'https://github.com/ramakrishnan/try-git.git',
             keepReleases: 5,
-            ignores: ['.git', 'node_modules'],
+            ignores: ['.git'],
 	    key: '/var/lib/jenkins/.ssh/id_rsa'
         },
         staging: {
