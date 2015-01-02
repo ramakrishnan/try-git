@@ -7,7 +7,7 @@ module.exports = {
             ignores: ['.git', 'node_modules']
         },
         staging: {
-            servers: ['ram'],
+            servers: ['ram@localhost'],
             branch: 'master'
         }
     };
