@@ -1,6 +1,6 @@
 module.exports = {
         options: {
-            workspace: '/home/jenkins/grunt_deploy/temp_deploy',
+            workspace: '/var/lib/jenkins/grunt_deploy/temp_deploy',
             deployTo: '/home/ram/grunt_deploy/actualCode',
             repositoryUrl: 'https://github.com/ramakrishnan/try-git.git',
             keepReleases: 5,
